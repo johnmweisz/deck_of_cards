@@ -46,7 +46,7 @@ class Deck{
         }
     }
     shuffle(){
-        let idx = this.cards.length - 1;
+        let idx = this.cards.length;
         let temp;
         while (idx > 0){
             let randomidx = Math.floor(Math.random() * idx)
