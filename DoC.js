@@ -88,12 +88,3 @@ class Player{
         return this
     }
 }
-deck = new Deck();
-player = new Player('john', deck);
-player.show_hand();
-player.take().take().take().take();
-player.discard(0).discard(4).discard(4).discard(4);
-player.show_hand();
-console.log(deck.cards);
-deck.reset()
-console.log(deck.cards);
